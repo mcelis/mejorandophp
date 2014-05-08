@@ -6,7 +6,7 @@
 <body>
 <h1>Mejorando.la</h1>
 Aprendiendo <?= $languaje ?>
-<p><a href="../contactos.php">Contactos</a></p>
+<p><a href="contactos.php">Contactos</a></p>
 </body>
 </html> 
 
