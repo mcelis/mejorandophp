@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<<html>
+<html>
 <head>
-	<title></title>
+    <title>Contactos</title>
 </head>
 <body>
-  pruebaaaaaa
+<p>contactos@maklu.co</p>
 </body>
 </html>
