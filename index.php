@@ -1,4 +1,5 @@
 <?php
+
 /*
  * El frontend controller se encarga de
  * configurar nuestra aplicacion
@@ -25,6 +26,4 @@ else
 
 // instanciamos la clase
 $request = new Request($url);
-// valor del metodo que se creo getUrl es decir se llama al metodo
-//var_dump($request->getParams());
 $request->execute();

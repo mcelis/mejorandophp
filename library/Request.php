@@ -106,5 +106,14 @@ class Request {
         $controller = new $controllerClassName();
         $response = call_user_func_array([$controller, $actionMethodName], $params);
 
+        if ($response instanceof Response)
+        {
+        	$response->execute();
+        }
+        else
+        {
+        	exit('Invalid response');
+        }
+
     }
 }
